@@ -1,0 +1,38 @@
+<html>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <body>
+      <div class="wrapper">
+        <div class="buttonWrapper">
+          <button class="tab-button active" data-id="home">Home</button>
+          <button class="tab-button" data-id="about">About</button>
+          <button class="tab-button" data-id="contact">Contact</button>
+        </div>
+        <div class="contentWrapper">
+          <p class="content active" id="home">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iste doloribus unde ullam doloremque eos autem ad nulla accusamus? Modi at minima numquam accusamus repudiandae perspiciatis nostrum architecto voluptatem quasi?
+  
+          </p>
+          <p class="content" id="about">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis maxime itaque veritatis iste soluta placeat obcaecati laudantium repellat corrupti! Eius sunt rerum inventore magnam? Perspiciatis facere error suscipit quisquam quibusdam.
+          </p>
+          <p class="content" id="contact">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+           
+          <footer>
+            <script src="tab.js"></script>
+          </footer>
+</body>
+<style>
+   .content {
+  display: none;
+  padding: 10px 20px;
+}
+
+.content.active {
+  display: block;
+}
+</style>
+</html> 
